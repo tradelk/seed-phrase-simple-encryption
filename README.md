@@ -31,3 +31,19 @@ This provides a simple, understandable layer of protection — ideal for educati
 
 ```bash
 python encrypt_seed.py
+
+
+You will be prompted to enter:
+1/ Your personal phrase (any text)
+2/ Your 12-word seed phrase
+
+The script outputs a Base64 string — this is the encrypted key you should save.
+
+Example:
+--- Final encrypted key (store this) ---
+wJH3...long_base64_string...8Q==
+
+📁 Requirements
+
+Install dependencies:
+pip install pycryptodome
